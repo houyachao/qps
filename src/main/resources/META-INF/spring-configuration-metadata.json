@@ -1,0 +1,39 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "name": "mdc.redis",
+      "type": "com.hyc.qps.properties.RedisProperties",
+      "sourceType": "com.hyc.qps.properties.RedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mdc.redis.auto-write",
+      "type": "java.lang.Boolean",
+      "description": "RedisTemplate 动态自动注入，默认开启",
+      "sourceType": "com.hyc.qps.properties.RedisProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "mdc.redis.enable",
+      "type": "java.lang.Boolean",
+      "description": "启用",
+      "sourceType": "com.hyc.qps.properties.RedisProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "mdc.redis.primary",
+      "type": "java.lang.String",
+      "description": "默认 redis 服务",
+      "sourceType": "com.hyc.qps.properties.RedisProperties",
+      "defaultValue": "default"
+    },
+    {
+      "name": "mdc.redis.servers",
+      "type": "java.util.Map<java.lang.String,com.hyc.qps.properties.RedisItemProperties>",
+      "description": "服务配置",
+      "sourceType": "com.hyc.qps.properties.RedisProperties"
+    }
+  ]
+}

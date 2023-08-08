@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.hyc.qps.configuration.RedisAutoConfiguration, \
+com.hyc.qps.configuration.QpsLimitConfiguration

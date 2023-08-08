@@ -1,0 +1,16 @@
+
+
+
+mdc:
+  redis:
+    enable: true
+    auto-write: true
+    primary: redisTemplate
+    servers:
+      redisTemplate:
+        host: 192.168.2.31
+        port: 6379
+        database: 2
+  qps-limit:
+    enable: true
+    redisTemplateBean: redisTemplate
